@@ -26,6 +26,7 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
         double a=0;
         double b=0;
+        double z=3;
         Calculadora calculadora1 = new Calculadora(a, b);
         boolean fin = true;  
        
