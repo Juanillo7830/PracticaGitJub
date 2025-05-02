@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Main {
     public static void panel(){
         System.out.println("##############################");
-        System.out.println("###     *CALCULADORA*      ###");
+        System.out.println("###     *CALCULADORA* 123     ###");
         System.out.println("### 1. para sumar          ###");
         System.out.println("### 2. para restar         ###");
         System.out.println("### 3. para multiplicar    ###");
@@ -26,6 +26,7 @@ public class Main {
         Scanner teclado = new Scanner(System.in);
         double a=0;
         double b=0;
+        double z=6;
         Calculadora calculadora1 = new Calculadora(a, b);
         boolean fin = true;  
        
